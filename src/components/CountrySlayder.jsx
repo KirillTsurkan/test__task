@@ -6,10 +6,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "../blocks/slider/slider.css"
 
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 function Slider() {
+  const array = ['Сент Винсент и Гренадины', 'Португалия', 'Саудовская Аравия', 'Испания', 'Франция'];
+
   return (
     <Swiper
       tag="section"
