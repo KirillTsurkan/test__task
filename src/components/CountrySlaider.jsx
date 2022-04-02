@@ -38,7 +38,7 @@ function Slider() {
         className="mySwiper"
       >
         {array.map((item) => (
-          <SwiperSlide key={index.toString()}>{item}</SwiperSlide>
+          <SwiperSlide>{item}</SwiperSlide>
         ))}
       </Swiper>
     </div>

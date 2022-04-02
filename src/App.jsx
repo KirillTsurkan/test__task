@@ -24,7 +24,7 @@ function App() {
           </button>
           <button onClick={clickButton} className="chips__button">Brezzor Pass</button>
           <button onClick={clickButton}className="chips__button"> Впечатления</button>
-          <button onClick={clickButton}className="chips__button">Маршруdddты</button>
+          <button onClick={clickButton}className="chips__button">Маршруты</button>
         </div>
         <form onSubmit={handleSubmit}>
           <input className="text__input"

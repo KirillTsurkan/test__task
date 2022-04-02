@@ -18,7 +18,7 @@
   max-width: 720px;
   z-index: 10;
 }
-.switch__button {
+.chips__button {
   transition: linear 1s;
   cursor: pointer;
   margin-right: 16px;
@@ -54,13 +54,13 @@
   border: none;
 }
 
-.switch__button:last-child {
+.chips__button:last-child {
   margin: 0;
 }
 .swiper {
   z-index: 10;
 }
-.switch__button_active {
+.chips__button_active {
   color: #fff;
   /* Color/Accent/Orange/Basic */
 
@@ -83,7 +83,7 @@
   z-index: 10;
 }
 
-.switch-container__wtapper {
+.switch-container__wrapper {
   display: flex;
   margin-bottom: 16px;
   z-index: 10;
@@ -200,7 +200,7 @@ text-align: center; */
 .map__button:hover {
   box-shadow: 0px 10px 22px 0px rgba(31, 31, 31, 0.27);
 }
-.switch__button:hover {
+.chips__button:hover {
   transition: linear 1s;
   /* opacity: 0.6; */
   background: rgba(235, 96, 18, 1);
